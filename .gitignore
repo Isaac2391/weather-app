@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+node_modules/
+.env
+package-lock.json
+.DS_Store
+dist/
+>>>>>>> 4eb9055 (did it all before committing woops)

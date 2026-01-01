@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
+    <script src="scripting.js" type="module"> </script>
+    <title>Document</title>
+</head>
+
+<body class="bg-yellow-600">
+    
+    <h1 class="text-center text-3xl text-blue-700 mt-8 font-bold"> 
+    Weather Forecast 
+    </h1>
+
+    <form class="text-center text-lg" id="cityForm"> 
+
+        <label class="text-center font-bold"> City </label><br> 
+        <input type="text" id="cityFormInput" name="cityForm" class="outline-none rounded-md" autofocus/><br>
+
+    </form>
+
+    <form id="tempToggleForm" class="text-center font-bold mt-5">
+        
+        <label> ℃ </label>
+        <input type="radio" id="Celsius" name="tempChoice"/>
+
+        <label> °F </label>
+        <input type="radio" id="Fahrenheit" name="tempChoice"/>
+
+    </form>
+
+    <div id="mainBodyDiv" class="flex justify-start items-center gap-20 mr-16"> 
+    <div id="weatherDisplayInfo" class="font-semibold flex-auto w-auto h-auto mt-5 mt-25 gap-x-50 justify-center align-top
+    
+    ml-40"> 
+
+        <p id="weatherDescDisplay" class="text-2xl"> </p>
+        <p id="weatherTempDisplay" class="text-xl"> </p>
+        <p id="weatherFeelsLikeDisplay" class="text-xl"> </p>
+
+        <p id="weatherHumidityDisplay" class="text-xl"> </p>
+        <p id="weatherWindSpeedDisplay" class="text-xl"> </p>
+        <p id="weatherRainChanceDisplay" class="text-xl"> </p>
+        
+        <p id="sunriseDisplay" class="text-xl"> </p>
+        <p id="sunsetDisplay" class="text-xl"> </p>
+
+    </div>
+
+    <div id="imageDiv" class="max-w-7xl max-h-7xl"> <img id="dogTemperature" class="h-auto w-auto"> </div> 
+    </div>
+
+</body>
+
+</html>

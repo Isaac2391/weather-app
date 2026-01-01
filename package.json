@@ -1,0 +1,14 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "my weather app",
+  "main": "scripting.js",
+  "type": "module",
+  "scripts": {
+    "test": "67",
+    "build": "tailwindcss -i ./styling.css -o ./dist/output.css --watch"
+  },
+  "author": "isaac",
+  "license": "ISC",
+  "dependencies": {}
+}
