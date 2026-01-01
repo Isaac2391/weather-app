@@ -1,4 +1,4 @@
 # weather-app
 practicing accessing APIs in javascript
 
-<img width="1918" height="834" alt="image" src="https://github.com/user-attachments/assets/37761577-6363-4276-a13b-58c50e466739" />
+<img width="1919" height="826" alt="image" src="https://github.com/user-attachments/assets/c84d493f-a951-4ace-a26b-7829987b5c7c" />
